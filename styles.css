@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4e1d2;
+    font-family: Arial, sans-serif;
+}
+
+.carta {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 2px solid #d57a66;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.carta .frente {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d57a66;
+}
+
+.carta .contenido {
+    display: none;
+    font-size: 18px;
+    color: #5a3e36;
+}
